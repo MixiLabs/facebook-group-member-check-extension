@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Facebook Group Member Check",
+  "version": "1.0",
+  "description": "Check if a user is a member of a Facebook group.",
+  "permissions": ["sidePanel", "activeTab", "tabs"],
+  "side_panel": {
+    "default_path": "sidebar.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/groups/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_title": "Open Group Member Check"
+  }
+}
