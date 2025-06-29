@@ -1,4 +1,4 @@
-# Facebook Group Member Checker - v2.0
+# Facebook Group Member Checker - v0.0.1
 
 A modern, production-ready Chrome/Edge browser extension for checking Facebook group membership status with advanced queue processing, beautiful UI, and efficient state management.
 
