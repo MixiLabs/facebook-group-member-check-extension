@@ -219,15 +219,15 @@ npm run preview
 ## 📋 Roadmap
 
 - [ ] Fix setting bugs
+- [ ] Get group information from group page by group ids or group urls
+- [ ] Better UI/UX
+- [ ] Maintain clean code & clean architecture
 - [ ] Dark mode support
 - [ ] Export/import group lists
 - [ ] Advanced filtering and search
 - [ ] Bulk user import from CSV
 - [ ] Performance analytics
 - [ ] Notification customization
-- [ ] Get group information from group page by group ids or group urls
-- [ ] Better UI/UX
-- [ ] Maintain clean code & clean architecture
 - [ ] Add more tests
 - [ ] Add more documentation
 
