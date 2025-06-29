@@ -9,7 +9,11 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "lib": ["es6", "dom"],
-    "types": ["node", "chrome"]
+    "types": ["node", "chrome"],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/lib/*": ["./src/lib/*"]
+    }
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]

@@ -39,10 +39,10 @@ async function findFacebookIdFallback(html: string): Promise<string | null> {
 }
 
 export async function findFacebookInfo(
-  userName: string
+  userNameOrUserId: string
 ): Promise<UserInfo | null> {
   // Extract account from URL to build the mobile about page URL, similar to facebook-scraper
-  const profileUrl = `https://www.facebook.com/${userName}/`;
+  const profileUrl = `https://www.facebook.com/${userNameOrUserId}/`;
 
   const fbPage = await originFetch(profileUrl);
   const html = await fbPage.text();
