@@ -216,23 +216,20 @@ npm run preview
 2. Try refreshing the page
 3. Check if Facebook changed their URL structure
 
-## 🔄 Migration from v1.0
-
-The new v2.0 completely replaces the old Webpack-based architecture:
-
-- **Old**: Vanilla JS + Webpack + Direct DOM manipulation
-- **New**: React + Vite + TailwindCSS + Modern state management
-
-No data migration needed - extension will start fresh with new storage structure.
-
 ## 📋 Roadmap
 
+- [ ] Fix setting bugs
 - [ ] Dark mode support
 - [ ] Export/import group lists
 - [ ] Advanced filtering and search
 - [ ] Bulk user import from CSV
 - [ ] Performance analytics
 - [ ] Notification customization
+- [ ] Get group information from group page by group ids or group urls
+- [ ] Better UI/UX
+- [ ] Maintain clean code & clean architecture
+- [ ] Add more tests
+- [ ] Add more documentation
 
 ## 🤝 Contributing
 
@@ -244,7 +241,11 @@ No data migration needed - extension will start fresh with new storage structure
 
 ## 📄 License
 
-This project is for educational purposes. Please respect Facebook's Terms of Service when using this extension.
+A formal license will be added soon. This project is open for contributions.
+
+## ✍️ Author
+
+- **[lehuygiang28](https://github.com/lehuygiang28)**
 
 ---
 
